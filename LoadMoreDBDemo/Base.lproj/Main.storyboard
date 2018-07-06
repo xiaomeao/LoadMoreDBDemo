@@ -1,24 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A6V-WZ-XBi"/>
+                        <viewControllerLayoutGuide type="bottom" id="UbV-Lp-otP"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IRM-a5-uTc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8bC-Xf-vdC" id="O2u-0S-sPt"/>
+                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="DL5-hA-X9s"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTd-OQ-e0a">
+                                <rect key="frame" x="305" y="597" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.93885367843437795" blue="0.96150623821279746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XWa-aL-sqc"/>
+                                    <constraint firstAttribute="width" constant="50" id="lid-up-CCB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="添加">
+                                    <color key="titleColor" red="0.71702609095634084" green="0.20328623257074052" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pNK-kz-yzL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="IRM-a5-uTc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4d4-wy-kUg"/>
+                            <constraint firstAttribute="trailing" secondItem="IRM-a5-uTc" secondAttribute="trailing" id="745-YV-hU3"/>
+                            <constraint firstItem="IRM-a5-uTc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NZ2-LY-uqI"/>
+                            <constraint firstAttribute="bottom" secondItem="mTd-OQ-e0a" secondAttribute="bottom" constant="20" id="WEm-Ty-k1Z"/>
+                            <constraint firstAttribute="bottom" secondItem="IRM-a5-uTc" secondAttribute="bottom" id="hQE-sd-oeq"/>
+                            <constraint firstAttribute="trailing" secondItem="mTd-OQ-e0a" secondAttribute="trailing" constant="20" id="uqg-LG-IHy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="IRM-a5-uTc" id="MxM-ZO-jQ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>

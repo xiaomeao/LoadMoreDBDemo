@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615ED6C9A766F8CD9CB91964 /* libPods-LoadMoreDBDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59668E81D0599367B7CF3080 /* libPods-LoadMoreDBDemo.a */; };
 		C2C77CDE20EE13F70057E6C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CDD20EE13F70057E6C7 /* AppDelegate.m */; };
 		C2C77CE120EE13F70057E6C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CE020EE13F70057E6C7 /* ViewController.m */; };
 		C2C77CE420EE13F70057E6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C77CE220EE13F70057E6C7 /* Main.storyboard */; };
 		C2C77CE620EE13F70057E6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C77CE520EE13F70057E6C7 /* Assets.xcassets */; };
 		C2C77CE920EE13F70057E6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C77CE720EE13F70057E6C7 /* LaunchScreen.storyboard */; };
 		C2C77CEC20EE13F70057E6C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CEB20EE13F70057E6C7 /* main.m */; };
+		C2C77CF520EE174C0057E6C7 /* LoadMoreDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CF420EE174C0057E6C7 /* LoadMoreDB.m */; };
+		C2C77CF820EE1BF20057E6C7 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CF720EE1BF20057E6C7 /* TextModel.m */; };
+		C2C77CFC20EE1F5A0057E6C7 /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77CFA20EE1F5A0057E6C7 /* TextCell.m */; };
+		C2C77CFD20EE1F5A0057E6C7 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C77CFB20EE1F5A0057E6C7 /* TextCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		555C0CD2329F16AB8909AA87 /* Pods-LoadMoreDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreDBDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreDBDemo/Pods-LoadMoreDBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		59668E81D0599367B7CF3080 /* libPods-LoadMoreDBDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadMoreDBDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C77CD920EE13F70057E6C7 /* LoadMoreDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMoreDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C77CDC20EE13F70057E6C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2C77CDD20EE13F70057E6C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,14 @@
 		C2C77CE820EE13F70057E6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C77CEA20EE13F70057E6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C77CEB20EE13F70057E6C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2C77CF320EE174C0057E6C7 /* LoadMoreDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadMoreDB.h; sourceTree = "<group>"; };
+		C2C77CF420EE174C0057E6C7 /* LoadMoreDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadMoreDB.m; sourceTree = "<group>"; };
+		C2C77CF620EE1BF20057E6C7 /* TextModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
+		C2C77CF720EE1BF20057E6C7 /* TextModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
+		C2C77CF920EE1F5A0057E6C7 /* TextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextCell.h; sourceTree = "<group>"; };
+		C2C77CFA20EE1F5A0057E6C7 /* TextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextCell.m; sourceTree = "<group>"; };
+		C2C77CFB20EE1F5A0057E6C7 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		F82D5AC2695A33D60911C2B5 /* Pods-LoadMoreDBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreDBDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreDBDemo/Pods-LoadMoreDBDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615ED6C9A766F8CD9CB91964 /* libPods-LoadMoreDBDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96A5F20A4AFBBE8DA13F04C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59668E81D0599367B7CF3080 /* libPods-LoadMoreDBDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2C77CD020EE13F70057E6C7 = {
 			isa = PBXGroup;
 			children = (
 				C2C77CDB20EE13F70057E6C7 /* LoadMoreDBDemo */,
 				C2C77CDA20EE13F70057E6C7 /* Products */,
+				CCC0DAF03B530C3CFDE5DFA2 /* Pods */,
+				96A5F20A4AFBBE8DA13F04C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +84,14 @@
 		C2C77CDB20EE13F70057E6C7 /* LoadMoreDBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C2C77CF220EE17300057E6C7 /* LoadMoreDB */,
 				C2C77CDC20EE13F70057E6C7 /* AppDelegate.h */,
 				C2C77CDD20EE13F70057E6C7 /* AppDelegate.m */,
 				C2C77CDF20EE13F70057E6C7 /* ViewController.h */,
 				C2C77CE020EE13F70057E6C7 /* ViewController.m */,
+				C2C77CF920EE1F5A0057E6C7 /* TextCell.h */,
+				C2C77CFA20EE1F5A0057E6C7 /* TextCell.m */,
+				C2C77CFB20EE1F5A0057E6C7 /* TextCell.xib */,
 				C2C77CE220EE13F70057E6C7 /* Main.storyboard */,
 				C2C77CE520EE13F70057E6C7 /* Assets.xcassets */,
 				C2C77CE720EE13F70057E6C7 /* LaunchScreen.storyboard */,
@@ -71,6 +101,26 @@
 			path = LoadMoreDBDemo;
 			sourceTree = "<group>";
 		};
+		C2C77CF220EE17300057E6C7 /* LoadMoreDB */ = {
+			isa = PBXGroup;
+			children = (
+				C2C77CF320EE174C0057E6C7 /* LoadMoreDB.h */,
+				C2C77CF420EE174C0057E6C7 /* LoadMoreDB.m */,
+				C2C77CF620EE1BF20057E6C7 /* TextModel.h */,
+				C2C77CF720EE1BF20057E6C7 /* TextModel.m */,
+			);
+			path = LoadMoreDB;
+			sourceTree = "<group>";
+		};
+		CCC0DAF03B530C3CFDE5DFA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82D5AC2695A33D60911C2B5 /* Pods-LoadMoreDBDemo.debug.xcconfig */,
+				555C0CD2329F16AB8909AA87 /* Pods-LoadMoreDBDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2C77CEF20EE13F70057E6C7 /* Build configuration list for PBXNativeTarget "LoadMoreDBDemo" */;
 			buildPhases = (
+				8903874F815B94489C2C64FC /* [CP] Check Pods Manifest.lock */,
 				C2C77CD520EE13F70057E6C7 /* Sources */,
 				C2C77CD620EE13F70057E6C7 /* Frameworks */,
 				C2C77CD720EE13F70057E6C7 /* Resources */,
+				4B6FE2F21C6F46741CA2DFAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,7 +154,7 @@
 				TargetAttributes = {
 					C2C77CD820EE13F70057E6C7 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,18 +183,61 @@
 			files = (
 				C2C77CE920EE13F70057E6C7 /* LaunchScreen.storyboard in Resources */,
 				C2C77CE620EE13F70057E6C7 /* Assets.xcassets in Resources */,
+				C2C77CFD20EE1F5A0057E6C7 /* TextCell.xib in Resources */,
 				C2C77CE420EE13F70057E6C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B6FE2F21C6F46741CA2DFAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoadMoreDBDemo/Pods-LoadMoreDBDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoadMoreDBDemo/Pods-LoadMoreDBDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8903874F815B94489C2C64FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoadMoreDBDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2C77CD520EE13F70057E6C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C77CFC20EE1F5A0057E6C7 /* TextCell.m in Sources */,
+				C2C77CF520EE174C0057E6C7 /* LoadMoreDB.m in Sources */,
 				C2C77CE120EE13F70057E6C7 /* ViewController.m in Sources */,
+				C2C77CF820EE1BF20057E6C7 /* TextModel.m in Sources */,
 				C2C77CEC20EE13F70057E6C7 /* main.m in Sources */,
 				C2C77CDE20EE13F70057E6C7 /* AppDelegate.m in Sources */,
 			);
@@ -218,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,26 +371,32 @@
 		};
 		C2C77CF020EE13F70057E6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82D5AC2695A33D60911C2B5 /* Pods-LoadMoreDBDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LoadMoreDBDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LoadMoreDB.com.LoadMoreDBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C2C77CF120EE13F70057E6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555C0CD2329F16AB8909AA87 /* Pods-LoadMoreDBDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LoadMoreDBDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LoadMoreDB.com.LoadMoreDBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
